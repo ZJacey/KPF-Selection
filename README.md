@@ -7,7 +7,7 @@ This repository contains the Python implementation of the **IDMB** algorithm, as
 
 IDMB provides robust causal feature selection for complex manufacturing data, leveraging conditional independence tests to accurately discover Markov Boundaries.
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `IDMB.py`: The main script that runs the Interleaved-Deletion Markov Boundary Discovery algorithm. It reads the dataset, performs the feature selection, and evaluates the selected features.
 - `condition_independence_test.py`: Contains various conditional independence (CI) tests (e.g., Fisher-Z test for continuous data, G2 test and Chi-square test for discrete data) required by the causal discovery process.
@@ -16,7 +16,7 @@ IDMB provides robust causal feature selection for complex manufacturing data, le
 - `subsets.py`: Utility functions for generating subsets used during the conditional independence testing phase.
 - `dataset.csv`: The dataset used for testing the algorithm.
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 To run this code, you need Python 3.x and the following libraries installed:
 
